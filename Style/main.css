@@ -1,0 +1,187 @@
+body{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+
+/*Header*/
+
+
+
+header{
+    text-align: center;
+    
+
+    
+}
+
+header li{
+    list-style: none;
+}
+
+
+
+header ul{
+    position: relative;
+    right: 70px;
+}
+
+header h1{
+
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    color: lightseagreen;
+    position: relative;
+   left: 13px;
+}
+
+
+
+
+
+
+.anasayfa, .hakkımda{
+    border: 2px solid gray;
+}
+
+.anasayfa:hover, .hakkımda:hover{
+    background-color: lightgray;
+    color: gray;
+}
+
+.anasayfa{
+    padding: 15px;
+    position: relative;
+    right: 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-family: 'Xanh Mono', monospace;
+    color:lightseagreen;
+    box-shadow: 3px 3px 4px #000;
+}
+
+.hakkımda{
+    position: relative;
+    left: 165px;
+    bottom: 23px;
+    padding: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-family: 'Xanh Mono', monospace;
+    color: lightseagreen;
+    box-shadow: 3px 3px 4px #000;
+    
+}
+
+
+
+
+nav{
+    padding: 20px;
+}
+
+
+
+/*Main*/
+
+main{
+    text-align: center;
+}
+
+main h1{
+    font-family: 'Russo One', sans-serif;
+    position: relative;
+    left: 25px;
+    top: 22px;
+}
+
+main p{
+    font-family: 'Cinzel', serif;
+    font-style:italic;
+
+
+}
+
+main ul{
+    font-family: 'Russo One', sans-serif;
+    list-style-type: none;
+    font-size: 50px;
+    
+    
+
+}
+
+main i{
+    color: coral;
+}
+
+main img{
+    border-radius: 50px;
+}
+
+.html{
+    position: relative;
+    right: 30px;
+   
+}
+
+.css{
+    position: relative;
+    right: 80px;
+    top: 15px;
+}
+
+
+
+
+.html-link, .css-link{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+/*Footer*/
+
+footer{
+    text-align: center;
+    
+
+}
+
+footer li{
+    list-style-type: none;
+   
+}
+
+footer a{
+    text-decoration: none;
+}
+
+
+
+.twitter{
+    position: relative;
+    right: 50px;
+    top: 50px;
+    color: aqua;
+    
+
+    font-size: 30px;
+
+
+}
+
+.github{
+    position: relative;
+    top:15px;
+    font-size: 30px;
+    color: black;
+
+}
